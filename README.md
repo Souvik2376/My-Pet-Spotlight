@@ -16,11 +16,11 @@ Share your pet's story with the world and connect with other pet owners.
 
 
 # Contributors
- <!-- 
-<a href="https://github.com/gabrysia694/MyPetSpotlight/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=gabrysia694/MyPetSpotlight" />
+ 
+<a href="https://github.com/Souvik2376/Hacktober-Fest-2023-MyPetSpotlight/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Souvik2376/Hacktober-Fest-2023-MyPetSpotlight" />
 </a>
--->
+
 # License 📝
 
 <a href="https://github.com/Souvik2376/Hacktober-Fest-2023-MyPetSpotlight/blob/main/LICENSE">LICENSE file<a/>
