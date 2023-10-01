@@ -1,6 +1,3 @@
-
-<h2 align="center"><b>Owner: <a href="https://github.com/Souvik2376">Souvik2376</a></b></h2>
-
 # My Pet Spotlight💫
 
 Welcome to My Pet Spotlight! This is a website that allows pet owners to create profiles for their beloved pets and showcase them to the world. Our mission is to provide a fun and interactive platform for pet owners to connect with each other and celebrate their furry friends.
