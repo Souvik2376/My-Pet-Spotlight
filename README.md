@@ -21,6 +21,7 @@ Share your pet's story with the world and connect with other pet owners.
   <img src="https://contrib.rocks/image?repo=Souvik2376/Hacktober-Fest-2023-MyPetSpotlight" />
 </a>
 
+
 # License 📝
 
 <a href="https://github.com/Souvik2376/Hacktober-Fest-2023-MyPetSpotlight/blob/main/LICENSE">LICENSE file<a/>
