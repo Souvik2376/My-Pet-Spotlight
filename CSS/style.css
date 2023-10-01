@@ -194,7 +194,10 @@ nav a:hover {
         0 0 20px #7373b7f9;
     margin: 20px;
     border: 2px solid rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);   
+}
+.card:hover{
+    transform:scale(1.2);
 }
 
 .card img {
