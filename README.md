@@ -13,9 +13,9 @@ Share your pet's story with the world and connect with other pet owners.
 
 
 # Contributors
- 
+
 <a href="https://github.com/Souvik2376/Hacktober-Fest-2023-MyPetSpotlight/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Souvik2376/Hacktober-Fest-2023-MyPetSpotlight" />
+  <img src="https://contributors-img.web.app/image?repo=Souvik2376/Hacktober-Fest-2023-MyPetSpotlight" />
 </a>
 
 
