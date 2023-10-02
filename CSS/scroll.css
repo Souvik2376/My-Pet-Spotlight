@@ -1,0 +1,38 @@
+#progress {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    transition: opacity 0.3s, background-color 0.3s;
+    box-shadow: 0px 4px 6px 0 rgba(255, 255, 255, .3),
+              -2px -4px 6px 0 rgba(116, 125, 136, .2),
+              inset -2px -4px 4px 0 rgba(255, 255, 255, .2),
+              inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+    cursor: pointer;
+  }
+  #progress:hover{
+    opacity: 1;
+  background-color: #df87ef;
+  animation: animate 1s linear infinite;
+  }
+  @keyframes animate{
+    50%{
+      transform: translateY(-8px);
+    }
+  }
+  #progress-value {
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: rgb(104, 98, 232);
+    background: linear-gradient(90deg, rgb(15, 15, 37) 0%, rgb(37, 28, 89) 39%, rgb(14, 12, 82) 100%);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 26px;
+    color: #4CC5DB;
+  }
