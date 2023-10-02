@@ -28,7 +28,7 @@ Create a Pull request and add any feature update to the repository.
 
 ## How to contribute to this project?
 
-* Read contributer.md 
+* Read CONTRIBUTING.md
 
 ## Getting started
 * Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
