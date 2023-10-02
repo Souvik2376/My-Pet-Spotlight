@@ -2,20 +2,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
 
 /* Navbar */
-.navbar{
-    background-color: black;
-}
-.navbar ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-}
-.navbar ul li{
-    padding: 5px 40px;
+/* styles.css */
+
+body {
+    margin: 0;
     font-family: 'Baloo Bhai 2', cursive;
-    font-size: 20px;
 }
+
+.navbar {
+    background-color: black;
+    color: rgb(255, 195, 161);
+    padding: 10px 0;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    gap: 100px;
+}
+@media (max-width: 1000px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        gap: 0;
+    }
+}
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(255, 195, 161);
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(255, 161, 107);
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #FFD700;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .menu-icon {
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu-icon span {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background-color: #fff;
+        margin: 6px 0;
+        transition: background-color 0.3s;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 0;
+        padding: 10px 20px;
+        text-align: center;
+    }
+}
+
 /* CSS for Scrollbar */
 
 ::-webkit-scrollbar {
