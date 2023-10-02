@@ -37,6 +37,8 @@
 }
 
 /* CSS of all classes in the same order of HTML  */
+html{
+    scroll-behavior: smooth;
 
 body {
     overflow-x: hidden;
