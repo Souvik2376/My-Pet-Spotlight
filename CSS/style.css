@@ -197,6 +197,7 @@ nav a:hover {
     backdrop-filter: blur(20px);   
 }
 .card:hover{
+    transition: 0.3s;
     transform:scale(1.2);
 }
 
