@@ -28,11 +28,7 @@ Create a Pull request and add any feature update to the repository.
 
 ## How to contribute to this project?
 
-Here are 2 quick and painless ways to contribute to this project:
-
 * Read contributer.md 
-
-Choose both, make a pull request for your work and wait for it to be merged!! 
 
 ## Getting started
 * Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
