@@ -11,7 +11,7 @@ body {
 
 .navbar {
     background-color: black;
-    color: #fff;
+    color: rgb(255, 195, 161);
     padding: 10px 0;
     position: relative;
 }
@@ -35,7 +35,7 @@ body {
 .logo {
     font-size: 24px;
     text-decoration: none;
-    color: #fff;
+    color: rgb(255, 195, 161);
     
 }
 
@@ -52,7 +52,7 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(255, 161, 107);
     transition: color 0.3s;
 }
 
