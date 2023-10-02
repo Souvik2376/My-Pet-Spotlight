@@ -755,3 +755,98 @@ footer {
     background-positon-x: 0px;
   }
 }
+
+/*CSS for contact section*/
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cont{
+    height: 350px;
+    width:720px;
+    background-color: rgb(160, 138, 39);
+    color:rgb(99, 51, 6);
+    margin:60px 0px;
+    padding:30px;
+    border:2px solid aliceblue;
+    border-radius: 35px;
+    font-weight: lighter;
+}
+.lead{
+    margin:10px 0px
+}
+.logos{
+    display: flex;
+    justify-content: center;
+}
+#ims img{
+    align-self: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+
+}
+#ims img:hover{
+    border-color: rgb(104, 50, 26);
+}
+.item{
+    display: flex;
+    flex-direction: column;
+}
+.small{
+    margin:0px 7px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form input{
+padding: 8px;
+width: 276px;
+margin-bottom: 10px;
+border-radius: 12px;
+color:rgb(68, 14, 14);
+}
+.form input:hover{
+    background-color: #866969;
+}
+.folder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 717px;
+}
+.file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 102, 131);
+    color: white;
+    width: 486px;
+    height: 143px;
+    border-radius: 30px;
+    margin: 30px 0px;
+    border: 2px solid white;
+}
+.file:hover{
+    background-color: rgb(13, 56, 92);
+} 
+.file img{
+    height: 90px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.write a{
+    color:black;
+}
+.write a:hover{
+    color:rgb(255, 255, 255);
+}
