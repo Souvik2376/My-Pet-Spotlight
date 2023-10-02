@@ -16,15 +16,23 @@
 </head>
 
 <body>
-  <nav class="navbar">
-    <ul>
-      <li><a href="#">Welcome to MyPetSpotlight!</a></li>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Section</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-  </nav>
+ <nav class="navbar">
+    <div class="navbar-container container">
+        <input type="checkbox" name="" id="">
+        <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Section</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <h1 class="logo">Welcome to MyPetSpotlight</h1>
+    </div>
+</nav>
 
   <!-- SCROLL TO TOP BUTTON -->
   <div id="progress">
@@ -706,6 +714,84 @@
         </div>
       </div>  
     </div>
+
+    <!---Miles's info-->
+    <div class="card">
+      <img src="./assets/images/miles.jpg" alt="miles sitting">
+      <div class="content">
+        <div class="name">
+          <strong> Name: </strong>
+          <span>Miles </span>
+        </div>
+
+        <div class="animal">
+          <strong> Type of animal: </strong>
+          <span> Cat</span>
+        </div>
+
+        <div class="age">
+          <strong> Age: </strong>
+          <span>2 years</span>
+        </div>
+
+        <div class="personality">
+          <strong> Personality: </strong>
+          <ul>
+            <li>Lazy</li>
+            <li>Noisy</li>
+          </ul>
+        </div>
+
+        <div class="toy">
+          <strong> Favourite toy: </strong>
+          <span> Rat Doll </span>
+        </div>
+
+        <div class="owner">
+          <strong> Owner: </strong>
+          <span> <a href="https://github.com/vitorquadros"> Vitor </a> </span>
+        </div>
+      </div>
+    </div>
+
+    <!---Tor's info-->
+    <div class="card">
+      <img src="./assets/images/tor.jpg" alt="Tor sitting">
+      <div class="content">
+        <div class="name">
+          <strong> Name: </strong>
+          <span>Tor </span>
+        </div>
+
+        <div class="animal">
+          <strong> Type of animal: </strong>
+          <span> Tortoise </span>
+        </div>
+
+        <div class="age">
+          <strong> Age: </strong>
+          <span>1 years</span>
+        </div>
+
+        <div class="personality">
+          <strong> Personality: </strong>
+          <ul>
+            <li>Lazy</li>
+          </ul>
+        </div>
+
+        <div class="toy">
+          <strong> Favourite toy: </strong>
+          <span> Rock </span>
+        </div>
+
+        <div class="owner">
+          <strong> Owner: </strong>
+          <span> <a href="https://github.com"> Tor </a> </span>
+        </div>
+      </div>
+    </div>
+
  
     <!-- Add your pet above -->
     
@@ -738,11 +824,41 @@
         </ul>
       </div>
     </div>
-
-    <div class="copyright">
-      <p> Copyright &copy; 2023 <a href="https://github.com/Souvik2376" target="_blank"
-          style="color: aqua;">@Souvik2376</a>. All Rights Reserved</p>
-    </div>
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+  
+      </ul>
+        <p> Copyright &copy; 2023 <a href="https://github.com/Souvik2376" target="_blank"
+            style="color: aqua;">@Souvik2376</a>. All Rights Reserved</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
   </footer>
 
 
