@@ -60,10 +60,20 @@ git push origin branch-name
 
 ## A BIG Thanks To Our Contributors :handshake: :handshake:
 
-<a href="https://github.com/Souvik2376/Hacktober-Fest-2023-MyPetSpotlight/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Souvik2376/Hacktober-Fest-2023-MyPetSpotlight" />
-</a>
+<br>
 
+- This project thanking all the contributors for having your valuable contribution to our project
+- Make sure you show some love by giving ⭐ to our repository
+
+<br>
+<!--
+<center>
+<a href="https://github.com/Souvik2376/Hacktober-Fest-2023-MyPetSpotlight/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Souvik2376/Hacktober-Fest-2023-MyPetSpotlight" />
+</a>
+</center>
+<br>
+-->
 
 # License 📝
 
