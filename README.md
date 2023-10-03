@@ -1,10 +1,4 @@
-# My Pet Spotlight💫-Hacktoberfest23
-
-<p align="center">
-    <a href="https://hacktoberfest.com/" target="_blank">
-    	<img src="https://miro.medium.com/v2/resize:fit:1400/0*McOGR_vW3LivYNor.png" width="800px" height="400px">
-    </a>
-</p>
+# My Pet Spotlight💫
 
 Welcome to My Pet Spotlight! This is a website that allows pet owners to create profiles for their beloved pets and showcase them to the world. Our mission is to provide a fun and interactive platform for pet owners to connect with each other and celebrate their furry friends.
 
@@ -17,14 +11,6 @@ Submit your pet's information, including name, age, personality traits and favou
 Browse through a collection of pets from around the world and read their unique stories.
 Share your pet's story with the world and connect with other pet owners.
 
-# HacktoberFest23
-
-Hello Hackers! HacktoberFest has begun again for year 2023, and everyone's excited to get started!
-Contribute between: <h4>1 OCTOBER - 31 OCTOBER</h4>
-
-Create a Pull request and add any feature update to the repository.
-
-* [Click here to register for hacktoberfest2023.](https://hacktoberfest.com/)
 
 ## How to contribute to this project?
 
